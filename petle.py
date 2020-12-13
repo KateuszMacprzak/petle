@@ -1,10 +1,3 @@
-x=['1','2','3']
-y=['a','b','c']
-a=0
-b=0
-for i in x:
-    for j in y:
-        print (x[a],y[b])
-        b+=1
-    a+=1
-    b=0
+for x in range (1,21,1):
+    if (x%3==0):
+        print(x)
