@@ -1,2 +1,2 @@
-a = list(range(1,9))
-print(a)
+for x in range (1,9,1):
+    print(x)
