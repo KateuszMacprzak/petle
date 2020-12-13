@@ -1,4 +1,4 @@
-i=1
-while i<22:
+i=10
+while i>=0:
     print(i)
-    i=i+5
+    i=i-1
