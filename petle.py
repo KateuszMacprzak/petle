@@ -1,3 +1,4 @@
-for x in range (1,21,1):
-    if (x%3==0):
-        print(x)
+i=1
+while i<22:
+    print(i)
+    i=i+5
