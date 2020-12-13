@@ -1,4 +1,5 @@
-i=10
-while i>=0:
-    print(i)
-    i=i-1
+def funkcja(i):
+    while i<8:
+        i=i+1
+        print(i)
+funkcja(3)
