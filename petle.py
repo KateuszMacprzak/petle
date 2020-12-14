@@ -1,6 +1,5 @@
-a=0
-x=['Natalia','Mateusz','Michał']
-y=['0','1','2']
+x=[1,2,3,4,5,6,7,8,9,10]
 for i in x:
-    print(y[a],x[a])
-    a+=1
+    if (i==9 or i==8 or i==3):
+        continue
+    print(i)
