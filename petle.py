@@ -1,5 +1,4 @@
-k=['salad','pasta','pizza','nachos']
-n=0
-for i in k:
-    n+=1
-    print(n, i)
+x='Puk '
+for i in range(1,5,1):
+    print (i)
+    print (x*i)
