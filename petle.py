@@ -1,4 +1,7 @@
-x='Puk '
+g=['Adrian1','Adrian2','Adrian3','Adrian4']
+n=0
+z=-1
 for i in range(1,5,1):
-    print (i)
-    print (x*i)
+    n+=1
+    z+=1
+    print(n, g[z])
