@@ -1,10 +1,2 @@
-x='*'
-y=1
-k=5
-while (y<6):
-    print(x*y)
-    y+=2
-while(k>-1):
-    print(x*y)
-    k-=2
-        
+for x in range (1,4,1):
+    print('Witamy ',x,'raz')
