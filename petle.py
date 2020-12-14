@@ -1,9 +1,8 @@
-x=['17','21','18']
-y=['Adrian','Paula',]
-a=0
-for i in x:
-    print(i)
-    for j in y:
-        print(y[a])
-        a+=1
-    a=0
+podsumowanie=0
+for a in range(3):
+    print('Wprowadz wartość: ')
+    nowa_wartosc=input()
+    nowa_wartosc=int(nowa_wartosc)
+    podsumowanie+=nowa_wartosc
+print('Suma wpisanych wartości to: ', podsumowanie)
+    
