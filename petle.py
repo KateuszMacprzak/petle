@@ -1,4 +1,5 @@
-a=[42,4,9,6,14,43]
-while a:
-    print(a[0])
-    del a[0]  #opcja del wyrzuca elementy z listy 
+i=-2
+while i<16:
+        i+=3
+        print(i)
+        
