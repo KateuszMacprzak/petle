@@ -1,5 +1,9 @@
-x=[17,21,18]
+x=['17','21','18']
+y=['Adrian','Paula',]
+a=0
 for i in x:
-    print (i)
-    print('Kolejna zmienna')
-    print('AAA')
+    print(i)
+    for j in y:
+        print(y[a])
+        a+=1
+    a=0
