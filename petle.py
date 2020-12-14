@@ -1,3 +1,2 @@
-x=['raz','dwa','trzy']
-for i in x:
-    print(i)
+for x in range(4):
+    print('Witamy !')
