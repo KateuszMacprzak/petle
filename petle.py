@@ -1,2 +1,4 @@
-for x in range(4):
-    print('Witamy !')
+x=['Natalia','Mateusz','Michał']
+for i in x:
+    x=len(i)
+    print(i,' ',x)
