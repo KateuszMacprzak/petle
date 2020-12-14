@@ -1,3 +1,2 @@
-for i in range(1,5,1):
-    print(i)
-print('AdriaN!')
+for i in range(1,4,1):
+    print('Witamy ',i,'raz')
