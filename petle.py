@@ -1,2 +1,5 @@
-for x in range (1,4,1):
-    print('Witamy ',x,'raz')
+y=0
+y+=6
+while(y<31):
+    print(y)
+    y+=6
