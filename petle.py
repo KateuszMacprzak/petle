@@ -1,11 +1,10 @@
-#wykonanie za pomocą pętli while
-#i=0
-#while(i>-1):
-#    i+=1
-#    print('h = ',i)
-#    if(i==6):
-#        break
-
-#za pomocą pętli for 
-for i in range (1,7,1):
-    print('h=',i)
+liczba=input('Wprowadz wartość: ')
+a=1
+liczba=int(liczba)
+if (liczba==0):
+    print('0! wynosi 1 ')
+else:
+    while liczba >=1:
+        a=a*liczba
+        liczba=liczba-1
+    print('Silnia wynosi: ',a)
