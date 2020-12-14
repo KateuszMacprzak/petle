@@ -1,6 +1,8 @@
 i=0
-while True:
+while i<5:
     print(i)
     i+=1
-    if (i>=5):
-        break
+    if (i==5):
+        print('Dotarliśmy do liczby: ',i)
+    
+        
