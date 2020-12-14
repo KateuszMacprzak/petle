@@ -1,2 +1,3 @@
-for i in range(3,20,3):
+for i in range(0,4,1):
         print(i)
+print('Koniec !')
