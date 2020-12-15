@@ -1,6 +1,2 @@
-def funkcja():
-    for i in range(10,20):
-        if(i==15):
-            break
-        print(i)
-funkcja()
+for i in range(0,30,5):
+    print('kolejna liczba ma nr: ',i)
