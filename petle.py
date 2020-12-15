@@ -1,5 +1,5 @@
-g=['Adrian1','Adrian2','Adrian3','Adrian4']
-z=1
-for i in g:
-    print(z,i)
-    z+=1
+x=['Wojciech','Tomasz','Adrian']
+for i in x:
+    print(x[0],x[1],x[2])
+    break
+print('Witajcie w naszym zespole!')
