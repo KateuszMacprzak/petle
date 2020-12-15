@@ -1,2 +1,5 @@
-for i in range(0,30,5):
-    print('kolejna liczba ma nr: ',i)
+results = []
+for a in range(6):
+    for b in range(a):
+        results.append((a, b))
+        print(a,b)
