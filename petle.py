@@ -1,5 +1,10 @@
-results = []
-for a in range(6):
-    for b in range(a):
-        results.append((a, b))
-        print(a,b)
+x=['1','2']
+y=['00','15','30','45']
+a=0
+b=0
+for i in x:
+    for j in y:
+        print(x[a],':',y[b], 'PM')
+        b+=1
+    a+=1
+    b=0
