@@ -1,11 +1,8 @@
-x=1
-y=0
-y=int(y)
-while (x>0):
-    a=input('Prosze podać kolejną wartość: ')
-    a=int(a)
-    y+=a
-    print('Obecna suma wynosi: ',y)
-    if (a==0):
-        print('Koniec programu, suma wynosi: ',y)
-        break
+i=1
+z=3
+while (i<6):
+    print(i*"*")
+    i+=2
+while(z>0):
+    print(z*"*")
+    z-=2
