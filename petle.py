@@ -1,5 +1,6 @@
-a=['ARA','BereKA','GONabEACH']
-z=1
-for i in a:
-    print(z,i)
-    z+=1
+x=1
+while (x>0):
+    z=input('Czy podziwiasz Natalinkę moją kochaną ?')
+    if(z=='tak'):
+        print('Dziękuje za szczerą odpowiedz !')
+        break
