@@ -1,5 +1,6 @@
-for i in range(0,17,4):
-    if(i==0):
-        continue
-    print(i)
-print('Zadanie wykonane!')
+def funkcja():
+    for i in range(10,20):
+        if(i==15):
+            break
+        print(i)
+funkcja()
