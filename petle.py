@@ -1,5 +1,13 @@
-x=['Ewa','Mateusz','Natalia','Michał']
-y=0
-for i in x:
-    print('Cześć ',x[y],'!',' ','Zapraszam na moje urodziny')
-    y+=1
+x=input('Proszę wpisać literę n lub c: ')
+i=1
+def funkcja():
+    while (i>0):
+        a=input('Proszę wpisać literę n lub c: ')
+        if (a=="n"):
+            print("Dziękuje")
+            break
+if (x=="n" or x=="c"):
+    print("Dziękuje")
+else:
+    print("Błąd")
+    funkcja()
