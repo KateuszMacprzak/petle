@@ -6,5 +6,6 @@ while (x>0):
     a=int(a)
     y+=a
     print('Obecna suma wynosi: ',y)
-    if(a==0):
-        print('Koniec działań. Wynik wynosi: ',y)
+    if (a==0):
+        print('Koniec programu, suma wynosi: ',y)
+        break
