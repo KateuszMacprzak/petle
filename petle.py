@@ -1,4 +1,7 @@
-R = [["CA","NV","UT"], ["NJ","NY","DE"]]
-for a in R: #dla elementów w pętli R
-    for b in a: #dla elementu w a
-        print(b) #wyświetl każdy element
+i=0
+while i<5:
+    i+=1
+    
+    if i==2:
+        continue
+    print(i)
